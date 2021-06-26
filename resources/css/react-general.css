@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #f0f0f0;
+    height: 100%;
+}
+body, body input {
+    font-size: 1.45vw !important;
+}
+
+#sales-app {
+    height: 100%;
+}
+
+a:hover span {
+    text-decoration: underline;
+}
+
+input, .inputBorder, select {
+    border: 0.12vw solid #222;
+}
+
+.form-control {
+    padding: 0.6vw 1.1vw !important;
+}
+
+h1 {
+    font-size: 6vw;
+}
+h2 {
+    font-size: 4vw;
+}
+h3 {
+    font-size: 3vw;
+}
+
+button:focus, input[type="button"]:focus {
+    outline: none !important;
+}
+
+.container, .container-sm, .container-md {
+    max-width: 100% !important;
+    padding: 0 4% 2vw !important;
+}
+
+.aButton:hover {
+    text-decoration: none !important;
+}
+
+.aButton {
+    display: inline-block;
+}
+.button {
+    background: #4a85ff !important;
+    border: solid 0.25vw #1b3bb7;
+    border-color: #1b3bb7 !important;
+    font-size: 1.8vw !important;
+    padding: 0.5vw 2vw;
+    color: white;
+    border-radius : 5vw;
+}
+.button-small {
+    background: #4a85ff !important;
+    border: solid 0.2vw #1b3bb7;
+    border-color: #1b3bb7 !important;
+    font-size: 1.15vw !important;
+    padding: 0.4vw 1.4vw;
+    color: white;
+    border-radius : 3vw;
+}
+.button-medium {
+    background: #4a85ff !important;
+    border: solid 0.25vw #1b3bb7;
+    border-color: #1b3bb7 !important;
+}
+.button-large {
+    background: #4a85ff !important;
+    border: solid 0.3vw #1b3bb7;
+    border-color: #1b3bb7 !important;
+    font-size: 2.5vw !important;
+    padding: 1vw 3vw;
+    color: white;
+    border-radius : 7vw;
+}
+
+.button-active {
+    border-color: white !important;
+    color: white;
+}
+
+.products .customer-info label span {
+    margin: -0.2vw -0.5vw;
+    padding: 0.2vw 0.5vw;
+    background: white;
+    border-radius: 1vw;
+}
+
+h3 span, .products h3 span {
+    display: inline-block;
+    margin: -0.2vw -0.5vw;
+    padding: 0.2vw 0.5vw;
+    background: white;
+    border-radius: 1vw;
+}
+.products .product-option-header span {
+    display: inline-block;
+    margin: -0.2vw -0.5vw;
+    padding: 0.2vw 0.5vw;
+    background: white;
+    border-radius: 1vw;
+}
+
+.backboard-simple {
+    margin: -0.2vw -0.5vw;
+    padding: 0.2vw 0.5vw;
+    background: white;
+    border-radius: 1vw;
+}
+.backboard {
+    display: inline-block;
+    margin: -0.2vw -0.5vw;
+    padding: 0.2vw 0.5vw;
+    background: white;
+    border-radius: 1vw;
+}
+
+.message {
+    color: #FFAA11;
+}
+
+.clear {
+    clear: both;
+}
